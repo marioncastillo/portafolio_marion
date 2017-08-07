@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portafolio Marion</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- jQuey smoothness -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<!-- Bootstrap Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Fontawesome -->
+	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+<input type="checkbox" class="checkbox" id="menu-toogle"/>
+<label for="menu-toogle" class="menu-toogle"></label>
+<nav class="nav">
+  <a href="#portafolio" class="nav__item current">Portafolio</a>
+  <a href="#yo" class="nav__item">Sobre Mi</a>
+  <a href="#habilidades" class="nav__item">Habilidades</a>
+  <a href="#contacto" class="nav__item">Contacto</a>
+</nav>
+
+<main class="main-w">
+
+<section id="portafolio">
+<div class="container-fluid">
+	<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+		<h1>PORTAFOLIO</h1>
+	</div>
+	</div>
+
+<div class="row">
+	<div class="col-lg-4 nopadding col-md-4 nopadding col-sm-12 col-xs-12 text-center" id="verde">
+		<i class="fa fa-play" aria-hidden="true" id="mostrarvideo"  href="#ventana1" data-toggle="modal"></i>
+		<h2>Video</h2>
+
+	<!--<a href="#ventana1" data-toggle="modal" class="btn btn-read btn-lg">Ver mas</a>-->
+	<div class="modal fade col-xs-12 text-right" id="ventana1">
+	<div class="modal-dialog" id="dial">
+
+	<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe src="https://www.youtube.com/embed/rTrufgA4bEY" frameborder="0" allowfullscreen></iframe>
+		</div>
+		
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe src="https://www.youtube.com/embed/VxC5Bb6Vr-Y?list=PLgVbnGc2RK63WBarbxUOMF68XdGftZY_S" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+	</div>
+	</div>
+	</div>
+
+	<div class="col-lg-4 nopadding col-md-4 nopadding  col-sm-12 col-xs-12 text-center" id="morado">
+		<i class="fa fa-laptop" aria-hidden="true"  href="#ventana3" data-toggle="modal"></i>
+		<h2>Web</h2>
+
+	<div class="modal fade col-xs-12 text-right" id="ventana3">
+	<div class="modal-dialog" id="dial">
+
+	<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<a href="https://marioncastillo.github.io/labcar/"><img src="img/labcar.png" alt="" id="trabajosweb"></a>
+			<a href="https://marioncastillo.github.io/lab-studio/"><img src="img/studio.png" alt="" id="trabajosweb"></a>
+			<a href="https://marioncastillo.github.io/pinterest-marion/"><img src="img/pinterest.png" alt="" id="trabajosweb"></a>
+		</div>
+
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<a href="https://marioncastillo.github.io/trans-lab/"><img src="img/translab.png" alt="" id="trabajosweb"></a>
+		</div>
+		</div>
+
+	</div>
+	</div>
+
+	</div>
+
+	<div class="col-lg-4 nopadding col-md-4 nopadding col-sm-12 col-xs-12 text-center" id="verde">
+		<i class="fa fa-camera-retro" aria-hidden="true"  href="#ventana2" data-toggle="modal" ></i>
+		<h2>Foto</h2>
+
+
+	<div class="modal fade col-xs-12 text-right" id="ventana2">
+	<div class="modal-dialog" id="dialogofoto">
+
+	<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+		<div id="carousel-1" class="carousel slide" data-ride="carousel">
+					<!--indicadores -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-1" data-slide-to="1"></li>
+			</ol>
+
+					<!--  slide -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+				<img src="img/paisaje1.JPG" alt="..." class="portada img-responsive">	
+				</div>
+				
+				<div class="item">
+				<img src="img/paisaje2.JPG" alt="..." class="portada img-responsive">
+				</div>
+
+				<div class="item">
+				<img src="img/IMG_1797 copy.jpg" alt="..." class="portada img-responsive">
+				</div>
+			</div>
+<!-- izqu y derecha -->
+			<a href="#carousel-1" role="button" data-slide="prev" class="left carousel-control">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a href="#carousel-1" role="button" data-slide="next" class="right carousel-control">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+	 	</div>
+		</div>
+	</div>
+
+	</div>
+	</div>
+
+	</div>
+	</div>
+
+	<div class="row">
+	<div class="col-lg-4 nopadding col-md-4 nopadding col-sm-12 col-xs-12 text-center" id="morado">
+	<i class="fa fa-globe" aria-hidden="true"  href="#ventana4" data-toggle="modal"></i>
+	<h2>Comunicación</h2>
+
+	<div class="modal fade col-xs-12 text-left" id="ventana4">
+	<div class="modal-dialog" id="dial">
+
+	<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+
+		<div>
+			<a href="http://productoracreoenti.cl/">PRODUCTORA CREO EN TI</a>
+			<p>PROYECTO QUE EDUCA EN LA PREVENCION DEL ABUSO SEXUAL INFANTIL</p>
+		</div>
+
+	</div>
+	</div>
+
+
+	</div>
+
+	<div class="col-lg-4 nopadding col-md-4 nopadding  col-sm-12 col-xs-12 text-center" id="verde">
+	<i class="fa fa-lightbulb-o" aria-hidden="true" href="#ventana5" data-toggle="modal"></i>
+	<h2>Creatividad</h2>
+
+
+	<div class="modal fade col-xs-12 text-left" id="ventana5">
+	<div class="modal-dialog" id="dial">
+
+	<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+
+		<div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque corporis officia, corrupti adipisci. Blanditiis error commodi dolorum, illo quia quasi explicabo minus vero fuga incidunt atque cupiditate assumenda iure dolores. L</p>
+		</div>
+
+	</div>
+	</div>
+		
+	</div>
+
+	<div class="col-lg-4 nopadding col-md-4 nopadding col-sm-12 col-xs-12 text-center" id="morado">
+		<i class="fa fa-file-text" aria-hidden="true" href="#ventana5" data-toggle="modal"></i>
+		<h2>Contenido</h2>
+
+	<div class="modal fade col-xs-12 text-left" id="ventana5">
+	<div class="modal-dialog" id="dial">
+
+	<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+
+		<div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque corporis officia, corrupti adipisci. Blanditiis error commodi dolorum, illo quia quasi explicabo minus vero fuga incidunt atque cupiditate assumenda iure dolores. L</p>
+		</div>
+
+	</div>
+	</div>
+	</div>
+	</div>
+</div>
+</section>
+
+<section class="yo" id="yo">
+	<div class="container">
+	<div class="row">
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+		<h1>SOBRE MI</h1>
+		</div>
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+		</div>
+
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+
+			<h2 id="textverde">MARION CASTILLO PERALTA</h2>
+			<h3 id="textverde">COMUNICADORA</h3>
+
+			<h4>Soy una persona multifacética, además del desarrollo front end puedo crear contenido, diseñar, producir, dirigir vídeo, fotografía, facilitar talleres, entre otras cosas.
+			</h4> 
+
+			<h4>Mi motivación es lograr una conexión emocional e influir de manera positiva en la calidad de vida de las personas.</h4>
+
+			<h4>Busco el bienestar común, ser el puente que une al equipo de trabajo, que coordina y genera un ambiente colaborativo.</h4>
+
+		</div>
+
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+			<img src="img/yo.jpg" alt="" id="fotoyo" class="img-circle">
+
+			<h4>En mi tiempo libre dirijo una organización social llamada <a href="http://www.productoracreoenti.cl">www.productoracreoenti.cl</a></h4>
+		</div>
+
+		</div>
+	</div>
+	</div>
+</section>
+<section id="habilidades">
+<div class="container-fluid">
+	<div class="row">
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+		<h1>HABILIDADES</h1>
+		</div>
+
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="habiuno">
+
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+			<img src="img/css.png" alt="" class="develop">
+		</div>
+
+
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+			<img src="img/html.png" alt="" class="develop">
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+			<img src="img/js.png" alt="" class="develop">
+		</div>
+	</div>
+	</div>
+
+
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="suit">
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+			<img src="img/photosop.png" alt="" class="adobe">
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+			<img src="img/s7.png" alt="" class="s7">
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+			<img src="img/premiere.png" alt="" class="adobe">
+		</div>
+	</div>
+
+
+</div>
+</section>
+
+<section id="contacto">
+<div class="container">
+	<div class="row">
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+		<h1>CONTACTO</h1>
+		</div>
+
+
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="email">
+		<h1 id="textverde">email: marionacp@gmail.com</h1>
+	</div>
+
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="redes">
+
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+			<a href="https://www.linkedin.com/in/marionaudiovisual/"><i class="fa fa-linkedin-square" aria-hidden="true" id="icon"></i></a>
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+			<a href="https://www.youtube.com/user/marionaudiovisual"><i class="fa fa-youtube-square" aria-hidden="true" id="iconyu"></i></a>
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+			<a href="https://www.facebook.com/FotografiaMarion/"><i class="fa fa-facebook-square" aria-hidden="true" id="icon"></i></a>
+		</div>
+	</div>
+	</div>
+
+
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="redes">
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+		
+		</div>
+	</div>
+
+
+</div>
+</section>
+</main>
+	
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!-- jQuery ui-->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Bootstrap Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

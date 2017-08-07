@@ -1,0 +1,156 @@
+/*colores
+morado:#B2107E;
+morado claro:#FF13B2;
+rosado:#FF4DCC;
+verde complementario:#1BB200;
+verde claro:#36FF13;
+
+
+*/
+body{
+	background: black;
+	margin:0;
+	padding:0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+/*seccion portafolio*/
+.portafolio{
+margin:0px;
+padding:0px;
+
+}
+h1{
+	color:#FF13B2;
+	margin-left: 10%;
+	font-size: 300%;
+}
+
+
+#verde{
+	background-color:#1BB200;
+	color: black;
+	height: 280px;
+
+}
+#verde:hover{
+	background-color:#FF4DCC;
+}
+#morado{
+	background-color:#B2107E;
+	height: 280px;
+	color:black;
+}
+#morado:hover{
+	background-color:#36FF13;
+}
+
+.fa{
+	font-size: 150px;
+	padding: 20px;
+	cursor: pointer;
+}
+
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+/*video responsive*/
+
+iframe{
+ 	height: 90%;
+	width: 90%;
+}
+/*modal*/
+.btn{
+	background-color:#1BB200;
+	margin-bottom: 5%;
+	font-size:100%;
+	color: black;	 
+}
+
+
+#dialogofoto{
+	width: 80%;
+}
+.fade{
+	background-color: black;
+	color: white;
+}
+
+/*trabajos web*/
+#trabajosweb{
+	width: 100%;
+}
+
+/*seccion sobre mi*/
+
+.yo{
+	height: 100%;
+}
+#fotoyo {
+    width: 70%;
+}
+
+h4{
+	color:#B2107E;
+	line-height: 200%;
+	margin-top: 5%;
+	font-size: 150%;
+}
+
+/*seccion habilidades*/
+
+#habiuno {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#textverde {
+    color: rgb(54, 255, 19);
+}
+
+
+.develop {
+    width: 40%;
+}
+
+.adobe {
+    width: 40%;
+}
+.s7 {
+    width: 70%;
+}
+
+#suit {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*seccion contacto*/
+
+#contacto {
+    height: 100%;
+}
+
+#email {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#icon{
+	color:#1BB200;
+}
+
+#icon:hover{
+	color:#36FF13;
+}
+
+#iconyu{
+	color:#B2107E;
+}
+
+#iconyu:hover{
+	color:#FF4DCC;
+}

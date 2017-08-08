@@ -75,6 +75,7 @@ iframe{
 
 #dialogofoto{
 	width: 80%;
+	height: 100%;
 }
 .fade{
 	background-color: black;
@@ -84,8 +85,13 @@ iframe{
 /*trabajos web*/
 #trabajosweb{
 	width: 100%;
+	margin-bottom: 10%;
 }
 
+#movil{
+	width: 40%;
+	margin-bottom: 10%;
+}
 /*seccion sobre mi*/
 
 .yo{
@@ -136,8 +142,8 @@ h4{
 }
 
 #email {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 #icon{
 	color:#1BB200;

@@ -160,3 +160,30 @@ h4{
 #iconyu:hover{
 	color:#FF4DCC;
 }
+#iconoverde{
+	font-size: 100px;
+	cursor: pointer;
+	color:#1BB200;
+}
+
+#iconoverde:hover{
+	color:#36FF13;
+}
+
+#iconomorado{
+	font-size: 100px;
+	cursor: pointer;
+	color:#B2107E;
+}
+
+#iconomorado:hover{
+	color:#FF13B2;
+}
+
+#cien{
+	width: 100px;
+}
+
+#s7{
+	width: 115px;
+}

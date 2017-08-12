@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portafolio Marion</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 	<!-- jQuey smoothness -->
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
@@ -16,42 +16,83 @@
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="css/menu.css">
+	
 </head>
 <body>
-<input type="checkbox" class="checkbox" id="menu-toogle"/>
-<label for="menu-toogle" class="menu-toogle"></label>
-<nav class="nav">
-  <a href="#portafolio" class="nav__item current">Portafolio</a>
-  <a href="#yo" class="nav__item">Sobre Mi</a>
-  <a href="#habilidades" class="nav__item">Habilidades</a>
-  <a href="#contacto" class="nav__item">Contacto</a>
-</nav>
+<div class="menu">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="navbar3" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar">
+          <li><a href="#yo">SOBRE MI</a></li>
+          <li><a href="#portafolio">PORTAFOLIO</a></li>
+          <li><a href="#habilidades">HABILIDADES</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>
 
-<main class="main-w">
+<section class="yo" id="yo">
+	<div class="container-fluid">
+	<div class="row">
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+		<h1 id="titulouno">MARION CASTILLO</h1>
+		<h2 id="textverde">COMUNICADORA - DESARROLLADORA FRONT END</h2>
+		</div>
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+		</div>
+
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+
+			<img src="img/yo.jpg" alt="" id="fotoyo" class="img-circle">
+
+
+		</div>
+
+		<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-left">
+			<h4>Mi motivación es lograr una conexión emocional e influir de manera positiva en la calidad de vida de las personas.</h4>
+
+			<h4>Busco el bienestar común, ser el puente que une al equipo de trabajo, que coordina y genera un ambiente colaborativo.</h4>
+
+			<h4>En mi tiempo libre dirijo una organización social llamada <a href="http://www.productoracreoenti.cl">www.productoracreoenti.cl</a></h4>
+
+		</div>
+
+		</div>
+	</div>
+	</div>
+</section>
 
 <section id="portafolio">
 <div class="container-fluid">
 	<div class="row">
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-left">
-		<h1>MARION CASTILLO</h1>
-	</div>
-	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-right">
 		<h1>PORTAFOLIO</h1>
 	</div>
 	</div>
-	</div>
+<div class="row">
 
-<div class="row" class="video">
-<div class="col-lg-4 nopadding col-md-4 nopadding col-sm-12 col-xs-12 text-center" id="verde">
+<div class="col-lg-3 nopadding col-md-3 nopadding col-sm-12 col-xs-12 text-center" id="verde">
 		<i class="fa fa-play" aria-hidden="true" id="mostrarvideo"  href="#ventana1" data-toggle="modal"></i>
 		<h2>Video</h2>
 
-	<!--<a href="#ventana1" data-toggle="modal" class="btn btn-read btn-lg">Ver mas</a>-->
-	<div class="modal fade col-xs-12 text-right" id="ventana1">
-	<div class="modal-dialog" id="dial">
+
+<div class="modal fade col-xs-12 text-right" id="ventana1">
+<div class="modal-dialog" id="dial">
 
 	<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
 	
@@ -86,20 +127,28 @@
 			<iframe src="https://www.youtube.com/embed/h7nppKMM_BA" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
-	</div>
+</div>
 </div>
 </div>
 
-	<div class="col-lg-4 nopadding col-md-4 nopadding  col-sm-12 col-xs-12 text-center" id="morado">
+<div class="col-lg-3 nopadding col-md-3 nopadding col-sm-12 col-xs-12 text-center" id="morado">
 		<i class="fa fa-laptop" aria-hidden="true"  href="#ventana3" data-toggle="modal"></i>
 		<h2>Web</h2>
 
-	<div class="modal fade col-xs-12 text-right" id="ventana3">
-	<div class="modal-dialog" id="dial">
+<div class="modal fade col-xs-12 text-right" id="ventana3">
+<div class="modal-dialog" id="dial">
 
 	<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
 	
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+			<h2 id="textmorado">PRODUCTORA CREO EN TI</h2>
+			<h3 id="textverde">PROYECTO QUE EDUCA EN LA PREVENCION DEL ABUSO SEXUAL INFANTIL</h3>
+			<a href="http://productoracreoenti.cl/"> <img src="img/creoenti2.jpg" alt="" class="img-responsive"></a>
+			<br>
+			<img src="img/creoenti.jpg" alt="" class="img-responsive">
+			</div>
+
 			<h2 id="textmorado">Desarrollo web que consiste en replicar diseño y usabilidad de app Labcar usando la api de mapa de google y bootstrap para el diseño</h2>
 			<a href="https://marioncastillo.github.io/labcar/"><img src="img/labcar.png" alt="" id="trabajosweb"></a>
 
@@ -117,22 +166,19 @@
 
 			<h2 id="textmorado">Maketeado web Landing sumo usando bootstrap</h2>
 			<a href="https://marioncastillo.github.io/landing-sumo/"><img src="img/landing.png" alt="" id="trabajosweb"></a>
-
-
 		</div>
 
-	</div>
-	</div>
+</div>
+</div>
+</div>
 
-	</div>
-
-	<div class="col-lg-4 nopadding col-md-4 nopadding col-sm-12 col-xs-12 text-center" id="verde">
+<div class="col-lg-3 nopadding col-md-3 nopadding col-sm-12 col-xs-12 text-center" id="verde">
 		<i class="fa fa-camera-retro" aria-hidden="true"  href="#ventana2" data-toggle="modal" ></i>
 		<h2>Foto</h2>
 
 
-	<div class="modal fade col-xs-12 text-right" id="ventana2">
-	<div class="modal-dialog" id="dialogofoto">
+<div class="modal fade col-xs-12 text-right" id="ventana2">
+<div class="modal-dialog" id="dialogofoto">
 
 	<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
 	<div class="row">
@@ -199,19 +245,18 @@
 		</div>
 	</div>
 
-	</div>
-	</div>
-
-	</div>
+</div>
 </div>
 
-	<div class="row">
-	<div class="col-lg-4 nopadding col-md-4 nopadding col-sm-12 col-xs-12 text-center" id="morado">
-	<i class="fa fa-users" aria-hidden="true"  href="#ventana4" data-toggle="modal"></i>
+</div>
+
+
+<div class="col-lg-3 nopadding col-md-3 nopadding col-sm-12 col-xs-12 text-center" id="morado">
+<i class="fa fa-users" aria-hidden="true"  href="#ventana4" data-toggle="modal"></i>
 	<h2>Facilitacion Grupal</h2>
 
-	<div class="modal fade col-xs-12 text-left" id="ventana4">
-	<div class="modal-dialog" id="dial">
+<div class="modal fade col-xs-12 text-left" id="ventana4">
+<div class="modal-dialog" id="dial">
 
 	<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
 
@@ -272,214 +317,123 @@
 			<br>
 		</div>
 
-	</div>
-	</div>
-
-
-	</div>
-
-	<div class="col-lg-4 nopadding col-md-4 nopadding  col-sm-12 col-xs-12 text-center" id="verde">
-	<i class="fa fa-globe" aria-hidden="true" href="#ventana5" data-toggle="modal"></i>
-	<h2>Comunicación</h2>
-
-
-	<div class="modal fade col-xs-12 text-right" id="ventana5">
-	<div class="modal-dialog" id="dial">
-
-	<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
-
-		<div class= "col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-
-			<h2 id="textmorado">Comunicación</h2>
-
-			<h3 id="textverde">Busco integrar diretentes formas de entregar un contenido de valor a las personas ya sea por medio de la comunicacion digital, oral o escrita, mi interés principal es ser un puente de informacón clara de diferentes temáticas</h3>
-			<img src="img/taller5.jpg" alt="" class="img-responsive">
-		</div>
-
-	</div>
-	</div>
-		
-	</div>
-
-	<div class="col-lg-4 nopadding col-md-4 nopadding col-sm-12 col-xs-12 text-center" id="morado">
-		<i class="fa fa-file-text" aria-hidden="true" href="#ventana6" data-toggle="modal"></i>
-		<h2>Proyectos</h2>
-
-	<div class="modal fade col-xs-12 text-right" id="ventana6">
-	<div class="modal-dialog" id="dial">
-
-	<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
-
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-			<h2 id="textmorado">PRODUCTORA CREO EN TI</h2>
-			<h3 id="textverde">PROYECTO QUE EDUCA EN LA PREVENCION DEL ABUSO SEXUAL INFANTIL</h3>
-			<a href="http://productoracreoenti.cl/"> <img src="img/creoenti2.jpg" alt="" class="img-responsive"></a>
-			<br>
-			<img src="img/creoenti.jpg" alt="" class="img-responsive">
-		</div>
-
-	</div>
-	</div>
-	</div>
-	</div>
 </div>
-</section>
+</div>
+</div>
 
-<section class="yo" id="yo">
-	<div class="container">
-	<div class="row">
-
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
-		<h1>SOBRE MI</h1>
-		</div>
-
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
-		</div>
-
-
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
-
-		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-
-			<h1>MARION CASTILLO</h1>
-			<h2 id="textverde">COMUNICADORA</h2>
-
-			<h4>Soy una persona multifacética, además del desarrollo front end puedo crear contenido, diseñar, producir, dirigir vídeo, fotografía, facilitar talleres, entre otras cosas.
-			</h4> 
-
-			<h4>Mi motivación es lograr una conexión emocional e influir de manera positiva en la calidad de vida de las personas.</h4>
-
-			<h4>Busco el bienestar común, ser el puente que une al equipo de trabajo, que coordina y genera un ambiente colaborativo.</h4>
-
-		</div>
-
-		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-			<img src="img/yo.jpg" alt="" id="fotoyo" class="img-circle">
-
-			<h4>En mi tiempo libre dirijo una organización social llamada <a href="http://www.productoracreoenti.cl">www.productoracreoenti.cl</a></h4>
-		</div>
-
-		</div>
-	</div>
-	</div>
 </section>
 <section id="habilidades">
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
 		<h1>HABILIDADES</h1>
 		</div>
+</div>
+<div class="row" id="espacio">
 
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="habiuno">
-
-		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
 			<i class="devicon-html5-plain" id="iconoverde"></i>
 		</div>
 
 
-		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
 			<i class="devicon-css3-plain"  id="iconomorado"></i>
 		</div>
 
-		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
 			<i class="devicon-javascript-plain"  id="iconoverde"></i>
 		</div>
 
-		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  text-center">
 			<i class="devicon-bootstrap-plain"   id="iconomorado"></i>
 		</div>
-	</div>
-	</div>
-
-
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="habiuno">
-		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+</div>
+<div class="row" id="espacio">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
 			<img src="img/premiere.png" alt="" id="cien">
 		</div>
 
-		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
 			<img src="img/s7dos.png" alt="" id="s7">
 		</div>
 
-		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
 			<img src="img/photosop.png" alt="" id="cien">
 		</div>
 
-		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
 			<img src="img/ustream.png" alt="" id="cien">
 		</div>
-	</div>
-
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="habiuno">
-
-		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+</div>
+<div class="row" id="espacio">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
 			<i class="devicon-slack-plain colored" id="iconoverde"></i>
 		</div>
 
 
-		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
 			<i class="devicon-wordpress-plain colored"  id="iconomorado"></i>
 		</div>
 
-
-		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
 			<i class="devicon-sass-original colored"  id="iconoverde"></i>
 		</div>
 
 
-		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
 			<i class="devicon-gulp-plain colored" id="iconomorado"></i>
 		</div>
-	</div>
-
-
 </div>
+
+
+
 </section>
 
 <section id="contacto">
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
 		<h1>CONTACTO</h1>
 		</div>
 
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="email">
+		<h2 id="textverde">marionacp@gmail.com</h2>
+		</div>
+
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="redes">
 
-		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 			<a href="https://www.linkedin.com/in/marionaudiovisual/"><i class="fa fa-linkedin-square" aria-hidden="true" id="icon"></i></a>
 		</div>
 
-		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 			<a href="https://www.youtube.com/user/marionaudiovisual"><i class="fa fa-youtube-square" aria-hidden="true" id="iconyu"></i></a>
 		</div>
 
-		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 			<a href="https://www.facebook.com/FotografiaMarion/"><i class="fa fa-facebook-square" aria-hidden="true" id="icon"></i></a>
 		</div>
-	</div>
 	</div>
 
 
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="redes">
-		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 		<a href="https://github.com/marioncastillo"><i class="fa fa-github-square" aria-hidden="true" id="iconyu"></i></a>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 		<a href="https://trello.com/marioncastillo"><i class="fa fa-trello" aria-hidden="true" id="icon"></i></a>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 		<a href="https://twitter.com/marionaudvisual"><i class="fa fa-twitter-square" aria-hidden="true" id="iconyu"></i></a>
 		</div>
 	</div>
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="email">
-		<h1 id="textverde">marionacp@gmail.com</h1>
-	</div>
 
+	</div>
 </div>
 </section>
-</main>
+
 	
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <!-- jQuery ui-->

@@ -1,10 +1,9 @@
 /*colores
-morado:#B2107E;
-morado claro:#FF13B2;
-rosado:#FF4DCC;
-verde complementario:#1BB200;
-verde claro:#36FF13;
 
+naranjofuerte:#FF8300;
+celeste:#26C6FF;
+azul palido:#0084B2;
+naranjopalido:#FF9019;
 
 */
 
@@ -12,65 +11,113 @@ verde claro:#36FF13;
 .nav>li>a{
 	margin-left: 170px;
 }
+
 body{
 	background: 
 	margin:0;
 	padding:0;
 	font-family: 'PT Sans', sans-serif;
+	color: white;
 }
 
 /*colores de los textos*/
 h1{
-	color:black;
 	margin-bottom:1%;
 	font-size: 300%;
 
 }
 
 h4{
-	color:black;
-	line-height: 200%;
-	margin-top: 5%;
+	
 	font-size: 150%;
+	margin-top: 5%;
 }
 
+
+
 /*seccion sobre mi*/
+
 .yo{
 	background-image: url(../img/fondouno.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
-
+	background-position: bottom;
+	color: white;
 
 }
+
+#blanco{
+	color: white;
+	margin-top: 5%;
+}
+#link{
+	color: white;
+
+}
+p{
+	font-size: 20px;
+	margin-bottom: 5%;
+}
+
 #titulouno{
 	margin-top: 10%;
-	margin-bottom: 20%;
+	margin-bottom: 10%;
 }
 
 #fotoyo {
     width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 
+}
+
+#textoyo{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/*seccion habilidades*/
+
+#habili{
+	color: white;
+}
+
+#espacio {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+#cien{
+	width: 75px;
+}
+
+#s7{
+	width: 80px;
 }
 
 
 /*seccion portafolio*/
 
 
+#portafolio{
+	background-color: #26C6FF;
 
-/*video responsive*/
+}
 
-iframe{
- 	height: 80%;
-	width: 80%;
+#botonweb{
+	margin-bottom: 30%;
 }
 
 /*modal*/
 .btn{
-	background-color:#1BB200;
-	margin-bottom: 5%;
-	font-size:100%;
-	color: black;	 
+	background-color:#FF8300;
+	margin-top: 5%;
+	margin-bottom:5%;
+	font-size:130%;
+	color: width;
+	border:transparent;
+	
 }
 
 
@@ -85,80 +132,87 @@ iframe{
 
 /*trabajos web*/
 .web{
-	background-color: 
+	background-color:#FF9019;
 }
 #trabajosweb{
 	width: 100%;
-	margin-bottom: 10%;
 }
 
 #movil{
 	width: 40%;
+}
+#botonazul{
+	background-color:#0084B2;
 	margin-bottom: 10%;
 }
+#botonazul:hover{
+	background-color: #26C6FF;
 
-
-/*seccion habilidades*/
-
-#espacio {
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
 
+/*video responsive*/
 
-
-#iconoverde{
-	font-size: 500%;
-	cursor: pointer;
-	color:#1BB200;
+iframe{
+ 	height: 80%;
+	width: 80%;
+}
+.video{
+	background-color: #26C6FF;
+	color: white;
 }
 
-#iconoverde:hover{
-	color:#36FF13;
+#videouno{
+ 	height: 50%;
+	width: 50%;
 }
 
-#iconomorado{
-	font-size: 500%;
-	cursor: pointer;
-	color:#B2107E;
+/*seccion foto*/
+#fotografias{
+	background-color:#0084B2;
 }
 
-#iconomorado:hover{
-	color:#FF13B2;
+/*seccion facilitacion*/
+#facil{
+	background-color: #FF9019;
+}
+#metodogia{
+	margin-bottom: 5%;
 }
 
-#cien{
-	width: 75px;
+#bajada{
+	margin-bottom: 5%;
 }
 
-#s7{
-	width: 80px;
-}
 /*seccion contacto*/
-
+#contacto{
+	background-color: #26C6FF;
+	color: white;
+}
 
 #email {
     margin-top: 1%;
     margin-bottom: 2%;
 }
 #icon{
-	color:#1BB200;
+	color:white;
 	font-size: 500%;
 	cursor: pointer;
+	margin-bottom: 5%;
 }
 
 #icon:hover{
-	color:#36FF13;
+	color:#26C6FF;
 }
 
 #iconyu{
-	color:#B2107E;
+	color:#0084B2;
 	font-size: 500%;
 	cursor: pointer;
+	margin-bottom: 10%;
 }
 
 #iconyu:hover{
-	color:#FF4DCC;
+	color:white;
 }
 
 

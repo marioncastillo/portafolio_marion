@@ -1,4 +1,9 @@
 /*colores
+morado:#B2107E;
+morado claro:#FF13B2;
+rosado:#FF4DCC;
+verde complementario:#1BB200;
+verde claro:#36FF13;
 
 naranjofuerte:#FF8300;
 celeste:#26C6FF;
@@ -7,23 +12,61 @@ naranjopalido:#FF9019;
 
 */
 
-/*nav*/
-.nav>li>a{
-	margin-left: 170px;
-}
 
 body{
-	background: 
 	margin:0;
 	padding:0;
 	font-family: 'PT Sans', sans-serif;
 	color: white;
 }
 
-/*colores de los textos*/
+/*nav*/
+.nav>li>a{
+	
+	color: #B2107E;
+}
+
+.navbar-inverse{
+	background-color:white;
+	border-color:;	
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:#B2107E;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#titulonav{
+	color: #B2107E;
+	font-family: 'Kaushan Script', cursive;
+
+}
+
+li:hover{
+	background-color: #B2107E;
+
+
+}
+.navbar-toggle{
+	background-color: #B2107E;
+	border:transparent;
+}
+.navbar-inverse .navbar-toggle:hover{
+	background-color: #0084B2;
+}
+.navbar-inverse .navbar-collapse{
+	border-color: white;
+}
+
+/* textos*/
 h1{
-	margin-bottom:1%;
-	font-size: 300%;
+	margin-bottom:3%;
+	margin-top: 3%;
+	font-size: 350%;
+	font-family: 'Kaushan Script', cursive;
+	
 
 }
 
@@ -101,17 +144,24 @@ p{
 
 
 #portafolio{
-	background-color: #26C6FF;
+	background-color: #B2107E;
 
 }
 
-#botonweb{
-	margin-bottom: 30%;
+#icoport{
+	font-size: 700%;
+	margin-top: 10%;
+	margin-bottom: 5%;
 }
+
+#blanco{
+	margin-bottom: 20%;
+}
+
 
 /*modal*/
 .btn{
-	background-color:#FF8300;
+	background-color:#B2107E;
 	margin-top: 5%;
 	margin-bottom:5%;
 	font-size:130%;
@@ -132,7 +182,7 @@ p{
 
 /*trabajos web*/
 .web{
-	background-color:#FF9019;
+	background-color:#26C6FF;
 }
 #trabajosweb{
 	width: 100%;
@@ -142,7 +192,7 @@ p{
 	width: 40%;
 }
 #botonazul{
-	background-color:#0084B2;
+	
 	margin-bottom: 10%;
 }
 #botonazul:hover{
@@ -157,7 +207,7 @@ iframe{
 	width: 80%;
 }
 .video{
-	background-color: #26C6FF;
+	background-color: #B2107E;
 	color: white;
 }
 
@@ -168,12 +218,12 @@ iframe{
 
 /*seccion foto*/
 #fotografias{
-	background-color:#0084B2;
+	background-color: #26C6FF;
 }
 
 /*seccion facilitacion*/
 #facil{
-	background-color: #FF9019;
+	background-color: #B2107E;
 }
 #metodogia{
 	margin-bottom: 5%;
@@ -201,11 +251,11 @@ iframe{
 }
 
 #icon:hover{
-	color:#26C6FF;
+	color:#B2107E;
 }
 
 #iconyu{
-	color:#0084B2;
+	color:#B2107E;
 	font-size: 500%;
 	cursor: pointer;
 	margin-bottom: 10%;

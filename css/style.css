@@ -22,18 +22,18 @@ body{
 
 /*nav*/
 .nav>li>a{
-	
 	color: #B2107E;
 }
 
 .navbar-inverse{
 	background-color:white;
-	border-color:;	
+	border-color:#B2107E;
+
 }
 
 .navbar-inverse .navbar-nav>li>a{
 	color:#B2107E;
-	font-size: 20px;
+	font-size: 15px;
 	text-align: center;
 	font-weight: bold;
 }
@@ -46,6 +46,7 @@ body{
 
 li:hover{
 	background-color: #B2107E;
+	padding: 5px;
 
 
 }
@@ -99,7 +100,7 @@ h4{
 }
 p{
 	font-size: 20px;
-	margin-bottom: 5%;
+	margin-bottom: 3%;
 }
 
 #titulouno{
@@ -169,7 +170,10 @@ p{
 	border:transparent;
 	
 }
-
+.btn:hover{
+	background-color: white;
+	color: #B2107E;
+}
 
 #dialogofoto{
 	width: 80%;
@@ -191,30 +195,24 @@ p{
 #movil{
 	width: 40%;
 }
-#botonazul{
-	
-	margin-bottom: 10%;
-}
-#botonazul:hover{
+
+
+#botonazuldos{
 	background-color: #26C6FF;
-
 }
-
+#botonazuldos:hover{
+	background-color: white;
+	color: #B2107E;
+}
 /*video responsive*/
 
-iframe{
- 	height: 80%;
-	width: 80%;
-}
+
 .video{
 	background-color: #B2107E;
 	color: white;
 }
 
-#videouno{
- 	height: 50%;
-	width: 50%;
-}
+
 
 /*seccion foto*/
 #fotografias{
@@ -225,13 +223,11 @@ iframe{
 #facil{
 	background-color: #B2107E;
 }
-#metodogia{
-	margin-bottom: 5%;
+#carousel-2{
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
-#bajada{
-	margin-bottom: 5%;
-}
 
 /*seccion contacto*/
 #contacto{

@@ -22,7 +22,7 @@ body{
 
 /*nav*/
 .navbar-inverse{
-	height: 5%;
+	
 }
 .nav>li>a{
 	color: #B2107E;
@@ -42,6 +42,8 @@ body{
 #titulonav{
 	color: #B2107E;
 	font-family: 'Kaushan Script', cursive;
+	margin-top: 5%;
+	margin-left: 10%;
 
 }
 
@@ -52,7 +54,7 @@ li:hover{
 }
 .navbar-toggle{
 	background-color: #B2107E;
-	border:transparent;
+	border: #B2107E;
 }
 .navbar-inverse .navbar-toggle:hover{
 	background-color: #0084B2;
@@ -60,16 +62,27 @@ li:hover{
 .navbar-inverse .navbar-collapse{
 	border-color: white;
 }
+.navbar-collapse{
+	background-color: white;
+}
+
 
 /* textos*/
+.nombre{
+	font-size: 350%;
+	font-family: 'Kaushan Script', cursive;
+	
+}
+
 h1{
 	margin-bottom:3%;
-	margin-top: 5%;
+	margin-top: 60px;
 	font-size: 350%;
 	font-family: 'Kaushan Script', cursive;
 	
 
 }
+
 
 h4{
 	
@@ -82,11 +95,12 @@ h4{
 /*seccion sobre mi*/
 
 .yo{
-	background-image: url(../img/fondouno.jpg);
+	/*background-image: url(../img/fondouno.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: bottom;*/
 	color: white;
+	background-color: #B2107E;
 
 }
 
@@ -104,44 +118,22 @@ p{
 }
 
 #titulouno{
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-top: 5%;
+	
 }
 
 #fotoyo {
     width: 70%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 50px;
+   
 
 }
-
+/*
 #textoyo{
 	background-color: rgba(0, 0, 0, 0.3);
 }
+*/
 
-
-/*seccion habilidades*/
-
-#habili{
-	color: white;
-}
-
-#espacio {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-
-#cien{
-	width: 75px;
-}
-
-#s7{
-	width: 80px;
-}
-
-
-/*seccion portafolio*/
 
 
 #portafolio{
@@ -151,7 +143,40 @@ p{
 
 #icoport{
 	font-size: 700%;
-	margin-top: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.fa-laptop:hover{
+	color: #26C6FF;
+}
+.fa-play:hover{
+	color: #26C6FF;
+}
+
+.fa-camera-retro:hover{
+	color: #26C6FF;
+}
+
+.fa-users:hover{
+	color: #26C6FF;
+}
+
+#icoportdos{
+	font-size: 700%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#icoportcuatro{
+	font-size: 700%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#icoporttres{
+	font-size: 700%;
+	margin-top: 5%;
 	margin-bottom: 5%;
 }
 
@@ -199,8 +224,8 @@ p{
 
 #botonazuldos{
 	background-color: #26C6FF;
-	margin-top: -3%;
-	width: 40%;
+	margin-top: -1%;
+	width: 200px;
 }
 #botonazuldos:hover{
 	background-color: white;
@@ -214,7 +239,19 @@ p{
 	color: white;
 }
 
+#espacio {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
+
+#cien{
+	width: 65px;
+}
+
+#s7{
+	width: 70px;
+}
 
 /*seccion foto*/
 #fotografias{
@@ -225,10 +262,6 @@ p{
 #facil{
 	background-color: #B2107E;
 }
-#carousel-2{
-	margin-top: 10%;
-	margin-bottom: 10%;
-}
 
 
 /*seccion contacto*/
@@ -237,15 +270,12 @@ p{
 	color: white;
 }
 
-#email {
-    margin-top: 1%;
-    margin-bottom: 2%;
-}
+
 #icon{
 	color:white;
 	font-size: 500%;
 	cursor: pointer;
-	margin-bottom: 5%;
+			
 }
 
 #icon:hover{
@@ -256,7 +286,7 @@ p{
 	color:#B2107E;
 	font-size: 500%;
 	cursor: pointer;
-	margin-bottom: 10%;
+	margin-bottom: 2%;
 }
 
 #iconyu:hover{

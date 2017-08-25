@@ -73,6 +73,8 @@ li:hover{
 	font-family: 'Kaushan Script', cursive;
 	animation-duration: 3s;
  	animation-name: slidein;
+ 	animation-timing-function: 3s;
+ 	animation-direction: alternate, reverse, normal;
 }
 @keyframes slidein {
   from {

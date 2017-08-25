@@ -71,8 +71,21 @@ li:hover{
 .nombre{
 	font-size: 350%;
 	font-family: 'Kaushan Script', cursive;
-	
+	animation-duration: 3s;
+ 	animation-name: slidein;
 }
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 
 h1{
 	margin-bottom:3%;

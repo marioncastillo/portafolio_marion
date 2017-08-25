@@ -23,6 +23,6 @@ $(document).ready(function(){
 
 		$("#icoportcuatro").click(function(e){
 			e.preventDefault();
-			window.location = "#facil";
+			window.location = "#facilitacion";
 	});
 })
